@@ -14,6 +14,6 @@ function displayPartners(){
         imageList.push(image)
     }
     // Display all six image codes stored in the array
-    document.getElementById("partners").innerHTML = imageList;
+    document.getElementById("partners").innerHTML = imageList.join("");
 }
 displayPartners();
