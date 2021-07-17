@@ -248,3 +248,30 @@ input[type="submit"]{
     background-color: #4977d1;
     padding: 5px 5px;
 }
+
+/* cliffs */
+#cliff-title{
+    font-size: 48px;
+    font-weight: bold;
+}
+.image-gallary{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.image-gallary .image-grid{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.image-grid img{
+    width: 500px;
+    margin-bottom: 40px;
+}
+.image-grid p{
+    background-color: #852b1b;
+    width: 500px;
+    height: 2em;
+    margin: auto;
+    line-height: 2em;
+    color: white;
+}
