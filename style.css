@@ -210,6 +210,29 @@ span:first-child{
 form{
     margin-bottom: 2em;
 }
+form .button input{
+    width: 8em;
+    height: 2.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* background-color: #4977D1; */
+    color: #fff;
+    border: none;
+    margin-left: 355px;
+}
+form .randomcode{
+    margin: 10px;
+}
+form .randomcode input{
+    width: 200px;
+    height: 1.5em;
+    margin-left: 190px;
+}
+form .randomcode p{
+    display: inline;
+    padding: 10px;
+    background-color: #bbb;
+}
 legend{
     text-transform: uppercase;
     font-weight: 600;
@@ -239,14 +262,6 @@ input[type="radio"]{
 }
 textarea{
     width: 500px;
-}
-input[type="submit"]{
-    display: block;
-    margin-left: 405px;
-    margin-top: 10px;
-    width: 100px;
-    background-color: #4977d1;
-    padding: 5px 5px;
 }
 
 /* cliffs */
