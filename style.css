@@ -192,6 +192,9 @@ td:first-child{
     font-weight: bold;
     background: #bde1ff;
 }
+td.highlighted{
+    background-color: #9ed034;
+}
 
 /* Contact */
 main h1{
