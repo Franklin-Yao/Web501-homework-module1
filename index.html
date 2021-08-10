@@ -3,34 +3,33 @@
         <head>
             <title>Tutorial Website</title>
             <meta charset="utf-8">
+            <meta name = "viewport" content = "width = device-width, initial-scale = 1, shrink-to-fit = no">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
             <link rel="stylesheet" href="style.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         </head>
     <body id="home">
         <div id="container">
-            <header>
-                <div class="main-header">
-                    <div class="logo">
-                        <img src="images/logo.png" alt="Great Cliffs Logo" width="125">
-                    </div>
-                    <nav class="main-menu">
-                        <ul>
-                            <li class="active">
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li>
-                                <a href="cliffs.html">Cliffs</a>
-                            </li>
-                            <li>
-                                <a href="activities.html">Activities</a>
-                            </li>
-                            <li>
-                                <a href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
+            <div class="main-header sticky-top">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Great Cliffs Logo" width="125">
                 </div>
-            </header>
+                <nav class="navbar navbar-expand-xl navbar-light sticky-top main-menu">
+                    <button id="navbar-toggler" class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navbarContent" 
+                    aria-controls = "navbarContent" aria-expanded = "false" aria-label = "Toggle navigation">
+                        <span class = "navbar-toggler-icon bg-white"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="navbar-nav">
+                            <li class="active nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="cliffs.html">Cliffs</a></li>
+                            <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <header></header>
             <section id="timeofday">
                 <span>Your Current Local Time: </span>
                 <span id="clock"></span>
@@ -63,6 +62,9 @@
                 </div>
             </footer>
         </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script src="js/digclock.js"> </script>
         <script src="js/partners.js"></script>
     </body>
